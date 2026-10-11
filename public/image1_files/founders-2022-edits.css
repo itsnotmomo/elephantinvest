@@ -1,0 +1,911 @@
+@import url("https://use.typekit.net/jyv2ybu.css");
+/*Bold*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+/*Black*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
+/*Black with Italic*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,800&display=swap');
+
+
+
+
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=8820ac85-7e8a-473b-b11f-d2c2228a17f3&fontids=5664085");
+@font-face{
+    font-family:"Helvetica Neue Light";
+    src:url("https://ffdev2019.wpengine.com/wp-content/themes/foundersfund-2016/dist/fonts/f9c5199e-a996-4c08-9042-1eb845bb7495.woff2") format("woff2"),url("https://ffdev2019.wpengine.com/wp-content/themes/foundersfund-2016/dist/fonts/2a34f1f8-d701-4949-b12d-133c1c2636eb.woff") format("woff");
+}
+
+
+
+
+/*
+Founders Fund 2023 Edits
+*/
+
+.body {
+/*	font-family: 'Helvetica Neue Light' !important;*/
+/*	letter-spacing: 0px !important;*/
+}
+
+
+
+
+/*Various Headers*/
+
+.h1, .h2, h1.hero-title, .tile-caption .h1, .tile-caption .h2, .tile-caption .h3, .h3, 
+.tile-heading, .slide-title, .list-item-title, .site-menu a {
+/*  font-family: 'Playfair Display', serif;*/
+/*  font-style: normal !important;*/
+/*  font-weight: normal !important;*/
+/*  font-weight: 900 !important;*/
+/*  letter-spacing: 0px !important;*/
+  
+/*  text-rendering: optimizeLegibility;*/
+/*  -webkit-font-smoothing: antialiased;*/
+/*  -moz-osx-font-smoothing: grayscale;*/
+}
+
+.site-menu a {
+/*	font-style: italic !important;*/
+/*	letter-spacing: -2px !important;*/
+}
+
+
+.btn-close {
+    background-image: url('https://welanded.s3.amazonaws.com/foundersfund/icon-close-2023-white.svg') !important;
+    width: 26px;
+    height: 26px;
+	background-position: center center !important;
+	background-size: 90% !important;
+}
+
+.post-detail-dark .icon path {
+	fill: #ccc;
+}
+
+
+/*Various Blog Content Headers*/
+.post-content .h1,
+.post-content .h2,
+.post-content .h3,
+.post-content .h4 {
+
+/*  font-family: 'Playfair Display', serif;*/
+/*  font-style: normal !important;*/
+/*  font-weight: 900 !important;*/
+
+}
+
+.dark {
+/*	color: #202223;*/
+}
+
+.site-menu {
+	background: #ffffff !important;
+}
+
+.site-menu a {
+/*	opacity: .75 !important;*/
+}
+
+.site-menu a:hover {
+/*	opacity: .75 !important;*/
+}
+
+.site-menu-items a {
+	color: #202223 !important;
+}
+
+.site-logo, .page-home .site-logo, .site-menu-expanded .site-logo {
+/*	background-image: url(https://ffdev2019.wpengine.com/wp-content/themes/foundersfund-2016/dist/images/logo-ff-2019.svg) !important;*/
+/*	width: 1.625rem;*/
+/*	height: 1.625rem;*/
+/*	background-color: transparent !important;*/
+	
+}
+
+.page-home .site-header {
+	background-color: transparent !important;
+}
+
+.site-header {
+	border-bottom: 1px solid #f2f2f2 !important;
+	background-color: #fff !important;
+}
+
+.site-header,
+.blog-header {
+/*	padding-left: 2rem !important;*/
+/*	padding-right: 2rem !important;*/
+}
+
+.page-home .site-header {
+	border: none !important;
+}
+
+.page-home .site-logo {
+/*	background-image: url(https://ffdev2019.wpengine.com/wp-content/themes/foundersfund-2016/dist/images/logo-ff-2019.svg) !important;*/
+/*	width: 1.625rem;*/
+/*	height: 1.625rem;*/
+}
+
+.site-header h1, .site-logo {
+	background-color: transparent !important;
+}
+
+.page-home .slide-title {
+/*	display: none !important;*/
+}
+
+.page-home .site-menu-toggle g, .page-home .site-menu-toggle path, .site-menu-expanded .site-menu-toggle g, .site-menu-expanded .site-menu-toggle path {
+	fill: #000 !important;
+}
+
+.newsletter .email {
+	padding-bottom: 8px !important;
+}
+
+.newsletter .email:placeholder-shown {
+	background-color: transparent !important;
+}
+
+.post-detail-dark .newsletter .email {
+	color: #555 !important;
+	background-color: #fff !important;
+}
+
+
+
+
+/* Homepage */
+
+
+.page-home .white {
+	color: #ffffff !important;
+}
+
+/*Homepage*/
+.home .ff-bg-greyscale{
+	background-color: #202223;
+}
+
+.page-home .slide-content {
+	max-width: 40rem !important;
+}
+
+.page-home .slide-title {
+/*	font-style: italic !important;*/
+	color: #ffffff !important;
+}
+
+.page-home .white {
+	color: #ffffff !important;
+}
+
+
+.page-home .slider-pagination-btn .bg-white {
+	background-color: #ffffff !important;
+}
+
+.ff-bg-greyscale {
+	background-color: #ffffff !important;
+}
+
+.ff-bg-red {
+	background-color: #ffffff !important;
+}
+
+.page-home .site-menu-toggle path {
+/*	fill: #202223 !important;*/
+/*	fill: #ffffff !important;*/
+}
+
+
+.site-menu-toggle {
+	height: 26px;
+    width: 26px;
+    transform: none;
+    background-image: url('https://welanded.s3.amazonaws.com/foundersfund/icon-menu-2023-black.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.site-menu-toggle svg {
+	display: none !important;
+}
+
+.page-home .site-menu-toggle { 
+    background-image: url('https://welanded.s3.amazonaws.com/foundersfund/icon-menu-2023-white.svg');
+}
+
+.site-menu-expanded .site-menu-toggle {
+	background-image: url('https://welanded.s3.amazonaws.com/foundersfund/icon-close-2023-black.svg');
+}
+
+
+
+/* Team */
+
+/*Removes space between name and title*/
+.md-col-4 .tile-aspect br {
+	display: none !important;
+}
+
+/*Removes Overlay Image & Container*/
+.overlay .bgimage, 
+.overlay .mb2:nth-child(3) {
+/*	display: none !important;*/
+	
+}
+
+/*.page-id-92*/
+.page-our_team\/,
+.page-our_team, 
+.team-container {
+	background-color: #181818 !important;
+}
+
+
+.overlay h4 {
+/*	font-weight: 200 !important;*/
+}
+
+.overlay .font-primary {
+/*	font-style: italic !important;*/
+/*	font-size: 4rem;*/
+}
+
+.overlay .p1 {
+	padding-left: 0px !important;
+} 
+
+/* Portfolio */
+
+.page-template-archive-company .blog-main {
+/*	background: #282828 !important;*/
+}
+
+/*Rollover for Portfolio Grid*/
+.bg-light {
+/*  background-color: #2f3031 !important;*/
+}
+
+.portfolio-tile {
+	background: #fff !important;
+}
+
+.portfolio-tile .tile-bg {
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
+    width: auto;
+/*	filter: invert(0) !important;*/
+}
+
+.bg-semitransparent {
+	background-color: rgba(32, 34, 35, 0.95);
+	
+}
+
+.overlay p,
+.overlay h4,
+.overlay h1,
+.overlay a, 
+.overlay h3,
+.overlay .teal  {
+/*	color: #202223 !important;*/
+	color: #fff !important;
+}
+
+/*Sets Overlay background to light specifically for portfolio*/
+.portfolio-container .bg-semitransparent {
+	background-color: rgba(255, 255, 255, 0.95);
+}
+
+.portfolio-container .overlay p, .portfolio-container .overlay h4, .portfolio-container .overlay h1, .portfolio-container .overlay a, .portfolio-container .overlay h3, .portfolio-container .overlay .teal {
+	color: #202223 !important;
+}
+
+.portfolio-container .btn-close {
+    background-image: url('https://welanded.s3.amazonaws.com/foundersfund/icon-close-2023-black.svg') !important;
+}
+
+
+
+
+
+/*
+AON
+*/
+
+
+
+/*AON Navigation Dropdown*/
+
+.blog-container .overlay p,
+.blog-container .overlay h4,
+.blog-container .overlay h1,
+.blog-container .overlay a, 
+.blog-container .overlay h3, 
+.blog-container .overlay .teal  {
+	color: #202223 !important;
+
+}
+
+.blog-container {
+	margin-top: 1.2rem;
+}
+
+.blog-container .bg-semitransparent {
+	background-color: rgba(255, 255, 255, 0.95); !important;	
+}
+
+.blog-container a:hover{
+	background-color: rgba(0, 0, 0, 0.02); !important;	
+}
+
+.blog-header {
+    padding-top: .6em !important;
+    padding-bottom: .6em !important;
+	border-bottom: 1px solid #f2f2f2 !important;
+}
+
+.blog-header-subnav:before, 
+.blog-header-subnav:after {
+	background: transparent !important;
+}
+
+.btn-load-more {
+	font-size: .8rem;
+}
+
+.list-item-title {
+	font-size: 2.5rem !important;
+	padding-bottom: 3px;
+}
+
+.podcast-credits p{
+	font-size: .8rem;
+}
+
+.disclaimer p {
+	font-size: .5rem !important;
+}
+
+
+.podcast-credits strong {
+	color: #202223;
+/*	font-size: .8rem;*/
+}
+
+.blog-header-link, .blog-header-search, label[for=search], .newsletter .email {
+/*	font-size: .8rem;*/
+/*	color: #202223 !important;*/
+/*	font-family: 'Helvetica Neue Light' !important;*/
+}
+
+.aon-tile {
+/*	border-right: 1px solid #e3e3e3;*/
+/*	border-bottom: 1px solid #e3e3e3;*/
+}
+
+.aon-tile .tile-content-container .bottom-0 {
+/*	top: 0 !important;*/
+}
+
+.blog .tile-heading,
+.blog .tile-caption .h3 {
+/*	font-size: 2.2rem !important;*/
+	width: 100% !important;
+}
+
+.blog .tile-heading {
+/*	margin-bottom: 1em !important;*/
+}
+
+.blog .tile-caption .h3 {
+	
+/*	font-size: 1.8rem;*/
+/*	font-weight: bold;*/
+/*	line-height: 1.1em;*/
+/*	margin-bottom: 1em;*/
+/*    font-family: 'Playfair Display', serif;*/
+/*    font-style: normal !important;*/
+/*    font-weight: 900 !important;*/
+	
+}
+
+.blog .slide-cta-icon {
+	display: none !important;
+}
+
+
+
+.tile-greyscale .white {
+/*	color: #202223;*/
+}
+
+.tile-greyscale .tile-text {
+/*	color: #333333;*/
+}
+
+.tile-greyscale .bg-color {
+/*	background-color: #ffffff !important;*/
+}
+
+/*Grid*/
+
+/**/
+/*Override Hero Tile*/
+/**/
+
+.tile-hero.col-12 {
+/*	width: 100%;*/
+/*	height: auto;*/
+}
+
+.tile-hero .tile-heading {
+	font-size: 2.5rem;
+}
+
+.tile-hero .tile-caption {
+	margin-left: 3rem;
+}
+
+.tile-text {
+/*	font-size: .8rem !important;*/
+/*	line-height: 1.1rem !important;*/
+}
+
+
+.tile-hero .bg-cover {	
+/*	Horizontal Image*/	
+/*    background-size: 85% !important;*/
+/*    background-position: 40% 70%;*/
+	
+
+}
+
+/**/
+/**/
+/**/
+
+
+/* ----------------------------------------  */
+/*
+AON - Inner Pages
+*/
+/* ----------------------------------------  */
+
+
+/*Podcast Credits vs Main Column*/
+
+.post-content .content-block>div, 
+.post-content .disclaimer>div {
+	max-width: 1500px !important;
+	width: 90% !important;
+	/*    width: calc(100% - 800px);*/
+		
+}
+
+.podcast-credits {
+	display: none !important;
+	/*	width: 800px;*/
+}
+
+/* ----------------------------------------  */
+/* AON Break Points */
+/* ----------------------------------------  */
+
+
+@media only screen and (min-width:1500px) { /* ----------------------------------------  */
+	
+	.hero-detail {
+		height: 65vw !important;
+	}
+}
+
+@media only screen and (max-width:1600px) { /* ----------------------------------------  */
+	
+	.post-content .podcast-credits {
+		justify-content: left !important;
+	}
+	
+	.post-content .content-block>div, 
+	.post-content .disclaimer>div {
+		/*	    max-width: 90% !important;*/
+		/*	    width: 90% !important;*/
+	}
+
+	.post-content .podcast-credits {
+		/*		width: 90%;*/
+		/*		position: relative !important;*/
+		/*		top: 0px !important;*/
+	}	
+	
+	.podcast-credits .mt3 {
+		/*		margin-top: 0px !important;*/
+	}
+	
+	.podcast-credits .px2 {
+		/*		padding-left: 0px !important;*/
+	}
+}
+
+@media only screen and (max-width:1250px) { /* ----------------------------------------  */
+	.post-detail .hero .bg-cc {
+		/*		background-position: top !important;*/
+		/*		background-size: 180% !important;*/
+	}
+	
+	#root > div > div.blog-container.overflow-hidden > div.clearfix > div > div > div.relative.hero.hero-detail {
+		height: 80vw !important;
+	}
+	
+	.image-right, .image-left {
+		/*		position: relative;*/
+		/*		transform: none !important*/
+	}
+	
+	.post-content .podcast-credits {
+		justify-content: left !important;
+	}
+	
+	
+}
+
+@media only screen and (max-width:1000px) { /* ----------------------------------------  */
+
+	.post-content p {
+	    font-size: 1.33333rem !important;
+	    line-height: 1.41em !important;	
+	}
+	
+	.post-content .disclaimer p {
+	    font-size: 1rem !important;
+	    line-height: 1em !important;	
+	}
+	
+	.hero .hero-nav.prev, .hero .hero-nav.next {
+		display: none !important;
+	}
+	
+	
+}
+
+@media only screen and (max-width:820px) { /* ----------------------------------------  */
+	
+	#root > div > div.blog-container.overflow-hidden > div.clearfix > div > div > div.relative.hero.hero-detail {
+		height: 80vw !important;
+	}
+		
+	.post-content .podcast-credits {
+		top: 0rem !important;
+	}
+	
+	
+	.post-content .hero-title-wrap {
+		padding-left: 5.8rem !important;
+		padding-right: 5.8rem !important;
+	}
+	
+	
+} 
+
+
+@media only screen and (max-width:833px) { /* ----------------------------------------  */
+	
+	.site-header,
+	.blog-header {
+		padding-left: 2rem !important;
+		padding-right: 2rem !important;
+	}
+	
+	.post-content .content-block>div, 
+	.post-content .disclaimer>div {
+		width: 100% !important;
+		
+	}
+	
+	div:has(> .sb-progress-container) {
+		margin-left: 2rem !important;
+		margin-right: 2rem !important;			
+		padding-top: 20px !important;
+	}
+	
+
+	#root > div > div.blog-container.overflow-hidden > div.clearfix > div > div > div.relative.hero.hero-detail {
+		height: 80vh !important;
+	}
+	
+	.post-detail .hero .bg-cc {
+		/*		background-position: top !important;*/
+		background-size: 210% !important;
+	}
+	
+	.post-detail .hero-title {
+		font-size: 3rem !important;
+	}
+	
+	.post-detail .hero-title-wrap {
+		padding-left: 2.32rem !important;
+		padding-right: 2.32rem !important;
+	}
+	
+	
+	
+} 
+
+
+/* ----------------------------------------  */
+/* END AON Break Points */
+/* ----------------------------------------  */
+
+
+.blog .hero {
+
+}
+
+#root > div > div.blog-container.overflow-hidden > div.clearfix > div > div > div.relative.hero.hero-detail {
+/*	height: 120vh !important;*/
+}
+
+.post-detail .bg-cover {
+
+/*	height: 22rem;*/
+/*	background-size: cover;*/
+	
+	
+}
+
+#root .blog .post-detail .hero-detail {
+
+}
+
+
+.hero-subtitle {
+	font-size: 1rem;
+}
+
+.post-content p {
+	font-size: 1rem;
+	line-height: 1.41em;
+}
+
+
+.post-content .block-quote {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.post-content .block-quote,
+.post-content .block-quote h2 {
+	text-align: left !important;
+	font-style: italic !important;
+	font-size: 2rem;
+}
+
+.post-content .block-quote .h2:after {
+    width: 2.5em;
+    border-bottom: .08em solid;
+    margin: .2em 0 0;
+}
+
+.blog .post-detail .white h1,
+.page-anatomy-of-next .post-detail .white h1{
+	color: #202223 !important;
+}
+
+
+/*----------------------------*/
+/*Adjusts the size of the hero and allows title to sit on white*/
+/*----------------------------*/
+
+#root > div > div.blog-container.overflow-hidden > div.clearfix > div > div > div.relative.hero.hero-detail.appear.white.bg-color > div > div,
+#root > div > div.blog-container.overflow-hidden > div.clearfix > div > div > div.relative.hero.hero-detail.appear.grey.bg-color > div > div {
+/*    background-color: #ffffff !important;
+    margin: 0px;
+    padding: 2rem;
+	padding-left: 5.83333rem;
+	padding-right: 5.83333rem;
+    width: 100%;
+	color: #202223 !important;*/
+}
+
+.hero-title-wrap {
+	background-color: #ffffff !important;
+	margin: 0px;
+	padding: 2rem;
+	padding-top: 3rem;
+	padding-left: 5.83333rem;
+	padding-right: 5.83333rem;
+	width: 100%;
+	color: #202223 !important;
+	
+}
+
+.post-detail .bg-cc {
+	background-position: top !important;
+}
+
+
+.hero.bg-color {
+	background-color: #fff !important;
+}
+
+/*----------------------------*/
+
+
+
+
+.post-detail .post-content {
+/*	Remove this for custom background colors*/
+	background-color: #ffffff;
+	
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.post-detail .hero-title {
+	max-width: 85% !important;
+	font-size: 4rem;
+}
+
+.post-detail .hero-title span {
+	font-size: 2rem !important;
+/*	font-size: 46px !important;*/
+	font-weight: 600;
+	line-height: 1em !important;
+	width: 100%;
+	display: inline-block;
+}
+
+.post-detail .bar {
+	width: 200px;
+	height: 4px;
+	background-color: black;
+}
+
+.max-width-4 {
+	max-width: 100% !important;
+}
+
+.podcast-credits {
+	top: 7.5rem !important;
+	transform: none !important;
+}
+
+.subscribe-button {
+	background-color: #cccccc !important;
+	color: #202223 !important;
+}
+
+.post-detail .post-content .mb4 {
+	margin-bottom: 0px !important;
+}
+
+.action-btn-google .action-btn-icon {
+	background-image: url('https://welanded.s3.amazonaws.com/foundersfund/icon-spotify.svg') !important;
+	background-repeat: no-repeat;
+}
+
+.action-btn-twitter, .addthis_toolbox, .sb-soundplayer-play-btn, .sb-progress-container {
+/*	display: none !important;*/
+}
+
+
+
+
+
+
+
+/*
+Manifesto
+*/
+
+#manifesto #nav {
+/*	background: #ffffff !important;*/
+/*	display: none !important;*/
+}
+
+#manifesto #nav:after {
+/*	background: #ffffff !important;*/
+/*	opacity: 1 !important;*/
+}
+
+
+#manifesto #nav li:before {
+/*    border: 2px solid #ffffff !important;*/
+/*    background-color: #ffffff !important;*/
+	
+}
+
+#manifesto #nav li:after {
+/*    border: 2px solid #f2f2f2 !important;*/
+/*    background-color: #f2f2f2;*/
+/*    opacity: .95 !important;*/
+}
+
+#manifesto #nav li:after {
+/*    border-top: 1px solid #f7474b;*/
+}
+
+body,
+#manifesto h1, 
+#manifesto h2, 
+#manifesto h3, 
+#manifesto em, 
+#manifesto span,
+#manifesto p, 
+#manifesto a,
+#manifesto li,
+#manifesto ol,
+#manifesto ul, 
+#manifesto .huge,
+#manifesto figcaption, 
+#manifesto .sidequote,
+#manifesto .quotecontainer,
+#manifesto .article {
+/*	color: #202223 !important;*/
+} 
+
+#manifesto section>header em {
+/*	color: #f7474b !important;*/
+/*	opacity: 1 !important;*/
+}
+
+#manifesto h1, 
+#manifesto h2, 
+#manifesto h3, 
+#manifesto span,
+#manifesto .huge {
+	letter-spacing: -2px;
+} 
+	
+
+.line {
+/*	stroke: #555555 !important;*/
+}
+
+#manifesto .chart span {
+/*    text-shadow: 0px 0px 0 #000, 0px 0px 0 #000, 0px 0px 0 #000, 0px 0px 0 #000 !important;*/
+}
+
+#coverframe {
+/*	background-color: #ffffff !important;*/
+}
+
+
+#manifesto #cover h1 {
+/*	letter-spacing: .01em;
+	font-style:normal;
+	text-rendering:optimizeLegibility;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	line-height:1.15em;
+	margin-bottom:.15em
+*/
+	
+}
+
+#manifesto h1 {
+/*	text-transform: capitalize !important;*/
+}
+
+#manifesto section>header em {
+/*	color: #202223 !important;*/
+}
+
+#manifesto .huge, 
+#manifesto .manifesto-blockquote {
+/*	color: #202223 !important;*/
+/*	letter-spacing: 0px !important;*/
+}
+
+
+
+
